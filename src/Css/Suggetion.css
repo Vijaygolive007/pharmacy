@@ -1,0 +1,14 @@
+
+.outer-con-suggesion{
+    position: relative;
+}
+
+.con-suggisions{
+    position: absolute;
+    top: -70px;
+}
+@media only screen and (max-width:570px) {
+    .iconsWithwhite{
+        width: 100px;
+    }
+}

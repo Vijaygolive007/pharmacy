@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.head-para{
+    color: #17414f;
+
+}
+.head-heading{
+    color: #17414f;
+    font-family: jost;
+    font-weight: 600;
+}
+.fulljar-con{
+    position: relative;
+}
+.full-jar{
+    border-radius: 15px;
+    width: 350px;
+    
+}
+.apr20{
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    background-color: #17414f;
+    padding: 3px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.para-jar{
+    position: absolute;
+    top: 15%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: jost;
+    line-height: 28px;
+    left: 40px;
+}
+.hand-jar-container{
+    padding: 10px;
+}
+.halfhand-con{
+    margin-top: 15px;
+    position: relative;
+    width: 350px;
+    height: 255px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.half-hand{
+    position: absolute;
+    top: -140px;
+
+    
+}
+.half-hand-container{
+    position: relative;
+}
+.half-jar{
+    position: absolute;
+    top: -30px;
+}
+@media only screen and (max-width:1470px) {
+    .full-jar{
+        width: 300px;
+    }
+    .halfhand-con{
+        width: 300px;
+    }
+    .half-jar{
+        left: -50px;
+    }
+}
+@media only screen and (max-width:1273px){
+    .full-jar{
+        width: 250px;
+    }
+    .halfhand-con{
+        width: 250px;
+    }
+    .half-jar{
+        left: -60px;
+    }
+    
+}
+@media only screen and (max-width:1073px){
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:521px){
+    
+    .full-jar{
+        width: 200px;
+    }
+    .halfhand-con{
+        width: 200px;
+    }
+}

@@ -1,0 +1,30 @@
+*{
+    color: white;
+    font-family: jost;
+}
+.footer{
+    background-color: #17414f;
+}
+.footer-icon-content{
+    background-color: #215d72;
+    width: 350px;
+    padding: 10px 30px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.footer-icon-last{
+    width: 350px;
+}
+.footer-icon{
+    margin-right: 30px;
+
+}
+.icon{
+    height: 50px;
+}
+@media only screen and (max-width:805px) {
+    .footer-deatail-con{
+        flex-direction: column;
+        align-items: center;
+    }
+}

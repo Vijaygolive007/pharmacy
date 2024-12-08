@@ -1,0 +1,156 @@
+*{
+    padding:0%;
+    margin: 0px;
+}
+.essential-con{
+    position: relative;
+    margin-bottom: 270px;
+    background-color: #e2f5fb;
+    height: 1120px;
+}
+
+.heading{
+    font-weight: 700;
+    font-family: jost;
+    color: #17414F;
+    font-size: 150px;
+}
+.probiotics{
+    background-color: transparent;
+}
+.probiotics-con{
+    background-color: #ffe9b5;
+    margin-top: 10%;
+    position: relative;
+    height: 350px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.medical-sup{
+    margin-top: 30px;
+    padding-left: 100px;
+}
+.medical-con{
+    justify-content: end;
+    padding-bottom: 20px;
+}
+.vitamin{
+    padding: 5px;
+}
+.icons{
+    width: 75px;
+    margin-left: 10px;
+}
+.benfits{
+    color: #17414f;
+}
+.h4-heading{
+    width: 270px;
+    color: #17414f;
+}
+.para{
+    color: #727272;
+    font-family: roboto;
+    font-size: 13px;
+}
+.button{
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px 10px 15px;
+    background-color: #17414f;
+}
+.image{
+    position: absolute;
+    top: -43%;
+    right: 0px;
+}
+.con-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+.suggesion-con{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 200px;
+}
+.suggesions{
+    background-color: #17414F;
+    color: white;
+    width: 1250px;
+    border-radius: 50px;
+    height: 560px;
+}
+@media only screen and (max-width:1224px){
+    /* .icons{
+        width: 100%;
+    } */
+    .probiotics{
+        width: 70%;
+    }
+    .probiotics-con{
+
+        height: 250px;
+    }
+    .medical-sup{
+        /* width: 100%; */
+        font-size: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    
+}
+@media only screen and (max-width:576px){
+    .heading{
+        font-size: 90px;
+    }
+    .essential-con{
+        margin-bottom: 600px;
+        align-items: center;
+        height: 1400px;
+    }
+}
+@media only screen and (max-width:1196px){
+    .essential-con{
+        margin-bottom: 400px;
+    }
+} 
+    
+@media only screen and (max-width:980px){
+    .essential-con{
+        margin-bottom: 800px;
+        align-items: center;
+        height: 1400px;
+    }
+    .container-for-top-hero{
+        flex-direction: column;
+        margin-left: 30%;
+
+    }
+    .medical-sup{
+        margin-bottom: 100px;
+    }
+    .image{
+       width: 350px;
+       top: -100px;
+       left: 0px;
+    }
+    .probiotics-con{
+        width: 200px;
+    }
+
+} 
+@media only screen and (max-width:630px){
+   .heading{
+    font-size: 40px;
+   }
+} 
+
+    
+
+
+
+ 
